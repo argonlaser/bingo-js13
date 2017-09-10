@@ -14,9 +14,20 @@
   "engines": {
     "node": "8.*"
   },
+  "standard": {
+    "ignore": [
+      "/test/*",
+      "shared.js"
+    ]
+  },
   "dependencies": {
     "express": "4.15.*",
     "socket.io": "2.0.*",
     "glitchd-client-node": "*"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "standard": "^10.0.3"
   }
 }
